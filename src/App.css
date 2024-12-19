@@ -45,3 +45,14 @@
 .input {
   width: 80%;
 }
+
+/* responsiveness */
+@media (max-width: 970px) {
+  .chat {
+    width: 90%;
+  }
+
+  .logo, a, label input {
+    display: none;
+  }
+}
